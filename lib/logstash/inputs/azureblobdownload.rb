@@ -69,7 +69,7 @@ class LogStash::Inputs::Azureblobdownload < LogStash::Inputs::Base
 
   # Initialize the plugin
   def initialize(*args)
-    @logger.info("initialize()................START!")
+	#@logger.info("initialize()................START!")
     super(*args)
   end # def initialize
   
